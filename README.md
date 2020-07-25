@@ -16,4 +16,3 @@ This notebook combines the two types of information namely, images and tabular d
 
 
 
-The test notebooks gets the test dataset and saves the result as .csv file ready for submission to Kaggle.
