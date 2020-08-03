@@ -12,7 +12,7 @@ In this notebook only the images without patient information are used for traini
 This notebook only considers the information of the patience and based on that predicts the likelihood of a tumor being benign or malignant. First the data is pre-processed and then briefly visualized. In the next step the training and validation sets are fed to a RandomForestClassifier and the model is trained. In the next step, using RandomizedSearchCV the hyperparameters are optimized.
 
 ## 3) SIIM.ipynb
-This notebook combines the two types of information namely, images and tabular data. The pre-defined EfficientNet model is used for the images and a separate branch is defined for the tabular data. The result of the two networks are then combined and participate in the final prediction. 
+This notebook combines the two types of information namely, images and tabular data. The pre-defined EfficientNet model is used for the images and a separate branch is defined for the tabular data. The result of the two networks are then combined and used for the final prediction. 
 
 
 
